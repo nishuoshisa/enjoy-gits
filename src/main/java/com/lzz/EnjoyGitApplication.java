@@ -10,12 +10,13 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 public class EnjoyGitApplication extends SpringBootServletInitializer {
 
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		SpringApplication.run(EnjoyGitApplication.class,args);
 	}
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder){
 		return builder.sources(EnjoyGitApplication.class);
 	}
+
 
 }
