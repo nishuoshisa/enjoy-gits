@@ -14,7 +14,7 @@ public class LoginController {
 
     @RequestMapping("/hello")
     public String homes(){
-        return "hello woshizhuyan，wozaixuejisuanji!";
+        return "hello woshizhuyan，wozaixuejisuanji!!";
     }
 
 
