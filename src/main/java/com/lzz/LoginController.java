@@ -14,7 +14,7 @@ public class LoginController {
 
 
     @RequestMapping("/")
-    String home(){
+    public String homes(){
         return "hello 我是朱炎，我在学计算机!";
     }
 
