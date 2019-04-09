@@ -1,22 +1,16 @@
 package com.lzz;
 
-
+/**
+ * @author 【享学课堂】 King老师
+ */
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-
-/**
- * Created by 胡梦娟 on 2018/11/27.
- */
 @RestController
-@RequestMapping("login")
-public class LoginController {
-
-
-    @RequestMapping("/")
-    public String homes(){
+public class UserController {
+    @RequestMapping("/hello")
+    public Object sayHello() {
         return "hello woshizhuyan,wozaixuejisuanji!!";
     }
-
-
 }
+
