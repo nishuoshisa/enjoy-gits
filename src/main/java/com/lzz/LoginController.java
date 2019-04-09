@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LoginController {
 
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String homes(){
         return "hello woshizhuyan，wozaixuejisuanji!!";
     }
