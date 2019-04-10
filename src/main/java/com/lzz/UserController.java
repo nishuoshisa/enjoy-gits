@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/hello")
     public Object sayHello() {
-        return "hello woshizhuyan,wozaixuejisuanji!!";
+        return "hello 我是朱炎，我最爱吹牛逼!!";
     }
 }
 
